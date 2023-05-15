@@ -7,17 +7,19 @@ The proposed classification methods were examined on 3 large monthly databases f
 
 In order to feed classifiers with Time Series data, a transformation into windows is introduced:
 
-![Presentation1_1-1](https://github.com/RezaEcon/Change-Point-Detection/assets/105849750/b96dc4ad-cc96-4d89-8746-fcc8b50b647f)
+![Presentation1_2-2-page-001](https://github.com/RezaEcon/Change-Point-Detection/assets/105849750/267dbe33-8b02-4cb8-86f5-a0ea37c1dc5e)
 
 The utilized methods can be described as follows:
 Method 0: Employing an ensemble of classifiers that receive all features collectively.
-[Presentation1_2-2.pdf](https://github.com/RezaEcon/Change-Point-Detection/files/11479476/Presentation1_2-2.pdf)
+![Presentation1_3-3](https://github.com/RezaEcon/Change-Point-Detection/assets/105849750/c1074607-d798-4dc3-97df-063846f8d34f)
 
 Method 1: Initially, each classifier is provided with an individual time series. The final decision for each window is based on the majority vote among the labels predicted by trained classifiers on the respective time series.
-[Presentation1_3-3.pdf](https://github.com/RezaEcon/Change-Point-Detection/files/11479477/Presentation1_3-3.pdf)
+
+![Presentation1_4-4-page-001](https://github.com/RezaEcon/Change-Point-Detection/assets/105849750/32a0874d-c840-4ca4-a869-b30f1370b154)
 
 Method 2: Similar to method 1 in the first stage, but an additional feature selection step is included in the second stage. The majority vote is calculated over a set of features with the highest performance from the first stage.
-[Presentation1_4-4.pdf](https://github.com/RezaEcon/Change-Point-Detection/files/11479479/Presentation1_4-4.pdf)
+![Presentation1_5-5-page-001](https://github.com/RezaEcon/Change-Point-Detection/assets/105849750/430900ad-c6db-423e-8ba4-335accf04a11)
+
 
 Method 3: Resembling method 2, except that the labels predicted for the selected features are fed into a new classifier, rather than solely relying on the majority vote.
 [Presentation1_5-5.pdf](https://github.com/RezaEcon/Change-Point-Detection/files/11479480/Presentation1_5-5.pdf)
