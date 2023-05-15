@@ -10,7 +10,9 @@ In order to feed classifiers with Time Series data, a transformation into window
 ![Presentation1_2-2-page-001](https://github.com/RezaEcon/Change-Point-Detection/assets/105849750/267dbe33-8b02-4cb8-86f5-a0ea37c1dc5e)
 
 The utilized methods can be described as follows:
+
 Method 0: Employing an ensemble of classifiers that receive all features collectively.
+
 ![Presentation1_3-3](https://github.com/RezaEcon/Change-Point-Detection/assets/105849750/c1074607-d798-4dc3-97df-063846f8d34f)
 
 Method 1: Initially, each classifier is provided with an individual time series. The final decision for each window is based on the majority vote among the labels predicted by trained classifiers on the respective time series.
@@ -22,13 +24,15 @@ Method 2: Similar to method 1 in the first stage, but an additional feature sele
 
 
 Method 3: Resembling method 2, except that the labels predicted for the selected features are fed into a new classifier, rather than solely relying on the majority vote.
-[Presentation1_5-5.pdf](https://github.com/RezaEcon/Change-Point-Detection/files/11479480/Presentation1_5-5.pdf)
+![Presentation1_6-6-page-001](https://github.com/RezaEcon/Change-Point-Detection/assets/105849750/5d076882-3cbc-4369-b27e-110ac7b9c39b)
+
 
 Method 4: Similar to method 3, except that an ensemble of classifiers is employed in the second stage instead of a single classifier.
-[Presentation1_6-6.pdf](https://github.com/RezaEcon/Change-Point-Detection/files/11479481/Presentation1_6-6.pdf)
+![Presentation1_7-7-page-001](https://github.com/RezaEcon/Change-Point-Detection/assets/105849750/62d385af-c8ff-4968-b6fc-561ba903a974)
+
 
 Methods 5, 6, 7, 8: Essentially methods 1, 2, 3, 4 respectively, with the distinction that an ensemble of classifiers is used in the first stage, rather than a single classifier.
-[Presentation1_7-7.pdf](https://github.com/RezaEcon/Change-Point-Detection/files/11479484/Presentation1_7-7.pdf)
-[Presentation1_8-8.pdf](https://github.com/RezaEcon/Change-Point-Detection/files/11479485/Presentation1_8-8.pdf)
-[Presentation1_9-9.pdf](https://github.com/RezaEcon/Change-Point-Detection/files/11479486/Presentation1_9-9.pdf)
-[Presentation1_10-10.pdf](https://github.com/RezaEcon/Change-Point-Detection/files/11479483/Presentation1_10-10.pdf)
+![Presentation1_8-8-page-001](https://github.com/RezaEcon/Change-Point-Detection/assets/105849750/6b4f6b10-0656-4587-8c47-661a22e6fc83)
+![image](https://github.com/RezaEcon/Change-Point-Detection/assets/105849750/431f4c86-703a-44f7-b845-8e9237c5ee09)
+![Presentation1_9-9-page-001](https://github.com/RezaEcon/Change-Point-Detection/assets/105849750/16d2a726-574d-4471-aa73-086aa8150f06)
+![Presentation1_10-10-page-001](https://github.com/RezaEcon/Change-Point-Detection/assets/105849750/412de898-6c22-4bc4-98d8-64d294ac097f)
