@@ -6,7 +6,8 @@ Turning points in business cycles are defined as the onset of a recession or an 
 The proposed classification methods were examined on 3 large monthly databases for macroeconomic analysis, in US, UK and Canada. Moving from basic standalone classifiers to hybrid ensemble methods, we progressively add more goal-driven complexity to the method toward reaching to the target performance. 
 
 In order to feed classifiers with Time Series data, a transformation into windows is introduced:
-[Presentation1_1-1.pdf](https://github.com/RezaEcon/Change-Point-Detection/files/11479474/Presentation1_1-1.pdf)
+
+![Presentation1_1-1](https://github.com/RezaEcon/Change-Point-Detection/assets/105849750/b96dc4ad-cc96-4d89-8746-fcc8b50b647f)
 
 The utilized methods can be described as follows:
 Method 0: Employing an ensemble of classifiers that receive all features collectively.
