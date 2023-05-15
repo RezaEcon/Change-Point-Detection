@@ -6,13 +6,13 @@ Turning points in business cycles are defined as the onset of a recession or an 
 The proposed classification methods were examined on 3 large monthly databases for macroeconomic analysis, in US, UK and Canada. Moving from basic standalone classifiers to hybrid ensemble methods, we progressively add more goal-driven complexity to the method toward reaching to the target performance. The utilized methods can be described as follows:
 
 Method 0: Employing an ensemble of classifiers that receive all features collectively.
-
+![alt text](https://github.com/[RezaEcon]/[Change-Point-Detection]/blob/[images]/0.jpg?raw=true)
 Method 1: Initially, each classifier is provided with an individual time series. The final decision for each window is based on the majority vote among the labels predicted by trained classifiers on the respective time series.
-
+![alt text](https://github.com/[RezaEcon]/[Change-Point-Detection]/blob/[images]/1.jpg?raw=true)
 Method 2: Similar to method 1 in the first stage, but an additional feature selection step is included in the second stage. The majority vote is calculated over a set of features with the highest performance from the first stage.
-
+![alt text](https://github.com/[RezaEcon]/[Change-Point-Detection]/blob/[images]/2.jpg?raw=true)
 Method 3: Resembling method 2, except that the labels predicted for the selected features are fed into a new classifier, rather than solely relying on the majority vote.
-
+![alt text](https://github.com/[RezaEcon]/[Change-Point-Detection]/blob/[images]/3.jpg?raw=true)
 Method 4: Similar to method 3, except that an ensemble of classifiers is employed in the second stage instead of a single classifier.
-
+![alt text](https://github.com/[RezaEcon]/[Change-Point-Detection]/blob/[images]/4.jpg?raw=true)
 Methods 5, 6, 7, 8: Essentially methods 1, 2, 3, 4 respectively, with the distinction that an ensemble of classifiers is used in the first stage, rather than a single classifier.
