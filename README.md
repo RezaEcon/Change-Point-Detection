@@ -33,6 +33,6 @@ Method 4: Similar to method 3, except that an ensemble of classifiers is employe
 
 Methods 5, 6, 7, 8: Essentially methods 1, 2, 3, 4 respectively, with the distinction that an ensemble of classifiers is used in the first stage, rather than a single classifier.
 ![Presentation1_8-8-page-001](https://github.com/RezaEcon/Change-Point-Detection/assets/105849750/6b4f6b10-0656-4587-8c47-661a22e6fc83)
-![image](https://github.com/RezaEcon/Change-Point-Detection/assets/105849750/431f4c86-703a-44f7-b845-8e9237c5ee09)
+![download](https://github.com/RezaEcon/Change-Point-Detection/assets/105849750/debd4071-270a-4dfd-9e88-d1edb6895a57)
 ![Presentation1_9-9-page-001](https://github.com/RezaEcon/Change-Point-Detection/assets/105849750/16d2a726-574d-4471-aa73-086aa8150f06)
 ![Presentation1_10-10-page-001](https://github.com/RezaEcon/Change-Point-Detection/assets/105849750/412de898-6c22-4bc4-98d8-64d294ac097f)
